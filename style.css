@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.navbar a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar{
+    background-color: #333333;
+    position: fixed;
+    padding: 1.5rem 7rem 1.5rem 7rem;   /* padding: top right bottom left; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.options{
+    display: flex;
+    justify-content: flex-start;
+    gap:70px;
+    list-style: none;
+    
+}
+
+header a {
+    cursor: pointer;
+}
+.homepage{
+    background-image: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 40vh; 
+    text-shadow: 2px 2px 50px black;
+    
+    
+}
+
+/* Learn more about position and z index tomorrow. */
+
+.content p {
+    font-size: 1.5rem;
+    
+}
+.content h1{
+    font-size: 4.5rem;
+    line-height: 7rem;
+}
+
+.content div a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 0.7rem;
+    border-radius: 5px;
+
+    
+}
+
+.content div {
+    padding-top: 10px;
+}
+
+
+
+/* Our Services */
+
+.Ourservices{
+    background-color: #F2F2F2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 8rem;
+
+    
+}
+.Ourservices h1{
+    font-size: 2rem;
+}
+
+.Ourservices ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+    gap: 40px;
+    flex-wrap: wrap;
+
+
+}
+.Ourservices ul li img{
+    width: 9rem;
+    height: 9rem;
+    background-size: cover;
+    border-radius: 100%;
+    padding: 10px;
+    
+}
+
+.cards li{
+    background-color: #FFFFFF;
+    width: calc(100% / 3 - 40px);
+    height: 22rem;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.cards h3{
+    line-height: 50px;
+}
+
+
+
+/* About section */
+
+.About{
+    background-color: #F2F2F2;
+    margin-top: -7rem;
+    
+    
+}
+.About h1{
+    line-height: 3rem;
+}
+.info h3{
+    line-height: 3rem;
+    
+}
+
+.header{
+   text-align: center;
+}
+
+.info{
+    
+    padding: 2rem 10rem 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* form */
+
+.form{
+    width: 100%;
+    padding: 4rem;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    gap: 20px;
+    
+}
+
+
+.head{
+    text-align: center;
+    line-height: 2.5rem;
+    
+}
+.head h1{
+    font-weight:bolder;
+}
+
+.details_And_forms{
+    display: flex;
+    justify-content:space-between;
+    gap: 22rem;
+    font-size: 16px;
+    
+
+    
+    
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form div form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    
+    
+}
+
+.form form input{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    
+}
+.form form textarea{
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+}
+
+.forms form button{
+    color:white;
+    background-color: #333333;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.forms form button:hover{
+    background-color: #525252;
+    transition: 0.2s ease;
+    }
+
+    .first_button a:hover{
+        transition: 0.4s ease;
+        background-color: transparent;
+        color:white;
+        border: 2px solid #fff;
+        
+        
+    }
+
+    /* icons */
+
+    .details i{
+        margin-right: 0.5rem;
+        color: #7A7A7A;
+    }
