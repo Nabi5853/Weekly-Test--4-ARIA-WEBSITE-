@@ -5,7 +5,15 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
 
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
 
 .navbar a{
     cursor: pointer;
@@ -44,7 +52,8 @@ header a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2)
+    
     
 }
 
@@ -160,9 +169,18 @@ header a {
 
 .info{
     
-    padding: 2rem 10rem 0rem 10rem;
+    /* padding: 2rem 10rem 0rem 10rem; */
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    border: 2px solid
+    
+    
+}
+.info h3{
+    text-align: start;
 }
 
 /* form */
